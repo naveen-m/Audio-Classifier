@@ -1,0 +1,6939 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu1.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>5.403E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>4.586E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.398E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.525E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>2.33E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.107E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>4.459E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>1.243E2</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-6.075E-1</v>
+			<v>-1.827E-1</v>
+			<v>-1.428E-1</v>
+			<v>-1.369E-1</v>
+			<v>-8.947E-2</v>
+			<v>-4.125E-2</v>
+			<v>-4.926E-2</v>
+			<v>-6.599E-2</v>
+			<v>-1.027E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>4.563E-1</v>
+			<v>1.009E2</v>
+			<v>5.977E3</v>
+			<v>1.667E5</v>
+			<v>6.939E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.124E3</v>
+			<v>2.649E2</v>
+			<v>-3.378E0</v>
+			<v>-9.159E4</v>
+			<v>1.229E3</v>
+			<v>3.807E0</v>
+			<v>7.214E7</v>
+			<v>-1.069E4</v>
+			<v>1.516E2</v>
+			<v>8.586E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>3.144E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.745E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>1.266E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.135E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>9.275E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>3.521E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>8.439E-3</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>6.265E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.414E-1</v>
+			<v>1.582E-1</v>
+			<v>8.213E-2</v>
+			<v>9.408E-2</v>
+			<v>7.301E-2</v>
+			<v>7.561E-2</v>
+			<v>7.61E-2</v>
+			<v>6.787E-2</v>
+			<v>8.487E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.985E-1</v>
+			<v>1.473E1</v>
+			<v>5.962E2</v>
+			<v>1.168E5</v>
+			<v>1.196E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>5.268E1</v>
+			<v>1.527E2</v>
+			<v>2.49E0</v>
+			<v>8.259E4</v>
+			<v>1.189E3</v>
+			<v>1.691E1</v>
+			<v>8.243E7</v>
+			<v>1.058E4</v>
+			<v>1.546E2</v>
+			<v>5.937E2</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>8.429E9</v>
+			<v>1.022E2</v>
+			<v>6.004E0</v>
+			<v>3.625E2</v>
+			<v>-2.503E-2</v>
+			<v>-1.189E-2</v>
+			<v>-7.264E3</v>
+			<v>1.254E5</v>
+			<v>7.367E3</v>
+			<v>3.743E-2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu10.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>3.082E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.624E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.594E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.725E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.913E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>7.466E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>4.615E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>6.35E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.685E-1</v>
+			<v>7.855E-1</v>
+			<v>-1.559E-1</v>
+			<v>2.318E-2</v>
+			<v>5.248E-2</v>
+			<v>1.215E-1</v>
+			<v>1.919E-2</v>
+			<v>6.181E-2</v>
+			<v>5.201E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.502E-1</v>
+			<v>5.048E1</v>
+			<v>2.082E3</v>
+			<v>2.011E5</v>
+			<v>3.359E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.78E3</v>
+			<v>8E2</v>
+			<v>-2.508E-1</v>
+			<v>-6.578E5</v>
+			<v>-6.249E2</v>
+			<v>-8.567E1</v>
+			<v>1.121E9</v>
+			<v>2.703E3</v>
+			<v>3.098E2</v>
+			<v>9.173E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.066E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>5.87E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>2.27E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>4.262E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>6.622E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>2.366E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>3.258E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>1.888E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.812E-1</v>
+			<v>2.162E-1</v>
+			<v>1.167E-1</v>
+			<v>9.08E-2</v>
+			<v>1.171E-1</v>
+			<v>8.666E-2</v>
+			<v>1.099E-1</v>
+			<v>1.188E-1</v>
+			<v>1.334E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>4.546E-2</v>
+			<v>1.292E1</v>
+			<v>6.234E2</v>
+			<v>5.445E4</v>
+			<v>9.773E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>8.418E2</v>
+			<v>1.519E2</v>
+			<v>5.858E0</v>
+			<v>2.427E5</v>
+			<v>4.632E3</v>
+			<v>5.042E1</v>
+			<v>5.985E8</v>
+			<v>4.217E4</v>
+			<v>1.5E2</v>
+			<v>1.47E3</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.3E11</v>
+			<v>8.406E1</v>
+			<v>6.002E0</v>
+			<v>8.989E2</v>
+			<v>-8.157E-3</v>
+			<v>-5.317E-3</v>
+			<v>-1.717E4</v>
+			<v>8.483E4</v>
+			<v>6.056E3</v>
+			<v>1.616E-2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu11.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.363E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>7.403E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.045E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.639E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.765E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>6.784E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.867E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>3.131E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.644E-1</v>
+			<v>5.717E-1</v>
+			<v>2.426E-1</v>
+			<v>8.991E-2</v>
+			<v>7.452E-2</v>
+			<v>-9.986E-3</v>
+			<v>2.06E-2</v>
+			<v>6.333E-2</v>
+			<v>2.698E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.178E-1</v>
+			<v>3.355E1</v>
+			<v>2.362E3</v>
+			<v>2.711E5</v>
+			<v>5.109E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.32E3</v>
+			<v>1.325E3</v>
+			<v>6.861E0</v>
+			<v>-1.772E6</v>
+			<v>-8.888E3</v>
+			<v>-2.027E2</v>
+			<v>4.809E9</v>
+			<v>7.837E4</v>
+			<v>4.976E2</v>
+			<v>3.556E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.06E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>9.183E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>2.692E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.265E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.138E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>4.203E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>6.214E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>2.49E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>7.105E-2</v>
+			<v>3.495E-1</v>
+			<v>1.702E-1</v>
+			<v>1.29E-1</v>
+			<v>9.889E-2</v>
+			<v>9.552E-2</v>
+			<v>7.17E-2</v>
+			<v>7.923E-2</v>
+			<v>7.421E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>7.24E-2</v>
+			<v>1.889E1</v>
+			<v>1.515E3</v>
+			<v>1.135E5</v>
+			<v>2.172E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.51E2</v>
+			<v>1.535E2</v>
+			<v>3.054E0</v>
+			<v>4.064E5</v>
+			<v>3.959E3</v>
+			<v>5.306E1</v>
+			<v>1.632E9</v>
+			<v>3.72E4</v>
+			<v>4.129E2</v>
+			<v>2.211E3</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>5.625E11</v>
+			<v>7.835E1</v>
+			<v>6.001E0</v>
+			<v>1.047E3</v>
+			<v>-4.371E-3</v>
+			<v>-3.305E-3</v>
+			<v>-1.379E4</v>
+			<v>7.368E4</v>
+			<v>5.643E3</v>
+			<v>1.004E-2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu12.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>4.941E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>4.002E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>2.034E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.636E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.378E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>6.161E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>6.723E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>1.205E2</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-6.823E-1</v>
+			<v>8.927E-2</v>
+			<v>-3.139E-1</v>
+			<v>-3.291E-2</v>
+			<v>-5.553E-2</v>
+			<v>4.845E-2</v>
+			<v>4.582E-2</v>
+			<v>2.87E-2</v>
+			<v>3.628E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.721E-1</v>
+			<v>8.553E1</v>
+			<v>4.796E3</v>
+			<v>1.792E5</v>
+			<v>5.583E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.477E3</v>
+			<v>1.85E3</v>
+			<v>3.867E1</v>
+			<v>-3.432E6</v>
+			<v>-7.445E4</v>
+			<v>-1.736E3</v>
+			<v>1.284E10</v>
+			<v>6.654E5</v>
+			<v>1.719E4</v>
+			<v>1.873E5</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>3.102E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.431E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>5.286E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.357E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>2.069E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>8.156E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>6.516E-3</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>5.581E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.622E-1</v>
+			<v>2.894E-1</v>
+			<v>1.577E-1</v>
+			<v>1.197E-1</v>
+			<v>1.078E-1</v>
+			<v>9.003E-2</v>
+			<v>8.675E-2</v>
+			<v>8.413E-2</v>
+			<v>9.003E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>2.039E-1</v>
+			<v>2.27E1</v>
+			<v>1.234E3</v>
+			<v>1.306E5</v>
+			<v>1.833E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.476E2</v>
+			<v>1.511E2</v>
+			<v>2.082E1</v>
+			<v>5.582E5</v>
+			<v>4.454E4</v>
+			<v>1.527E3</v>
+			<v>3.11E9</v>
+			<v>4.015E5</v>
+			<v>1.526E4</v>
+			<v>2.112E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.489E12</v>
+			<v>7.456E1</v>
+			<v>6.001E0</v>
+			<v>1.073E3</v>
+			<v>-1.546E-4</v>
+			<v>-2.242E-3</v>
+			<v>-1.019E4</v>
+			<v>6.671E4</v>
+			<v>5.37E3</v>
+			<v>7.734E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu13.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.207E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>7.228E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>7.636E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.608E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>2.845E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.111E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>6.038E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>3.484E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.683E-1</v>
+			<v>4.391E-1</v>
+			<v>3.306E-2</v>
+			<v>2.117E-2</v>
+			<v>-2.555E-1</v>
+			<v>2.002E-1</v>
+			<v>1.322E-1</v>
+			<v>1.285E-1</v>
+			<v>-1.368E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>2.273E-1</v>
+			<v>3.86E1</v>
+			<v>2.799E3</v>
+			<v>3.107E5</v>
+			<v>5.421E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.074E3</v>
+			<v>2.372E3</v>
+			<v>7.259E1</v>
+			<v>-5.632E6</v>
+			<v>-1.719E5</v>
+			<v>-4.712E3</v>
+			<v>2.69E10</v>
+			<v>1.555E6</v>
+			<v>4.759E4</v>
+			<v>6.506E5</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>6.555E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>5.201E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>9.082E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.36E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.836E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>6.755E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.299E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>1.758E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.432E-2</v>
+			<v>1.789E-1</v>
+			<v>1.366E-1</v>
+			<v>1.421E-1</v>
+			<v>1.079E-1</v>
+			<v>1.139E-1</v>
+			<v>1.197E-1</v>
+			<v>1.158E-1</v>
+			<v>1.261E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.036E-1</v>
+			<v>8.911E0</v>
+			<v>6.583E2</v>
+			<v>5.281E4</v>
+			<v>9.688E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>8.251E1</v>
+			<v>1.517E2</v>
+			<v>1.895E0</v>
+			<v>7.19E5</v>
+			<v>1.349E4</v>
+			<v>2.408E2</v>
+			<v>5.127E9</v>
+			<v>1.23E5</v>
+			<v>2.488E3</v>
+			<v>4.986E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>3.12E12</v>
+			<v>7.285E1</v>
+			<v>6.001E0</v>
+			<v>1.092E3</v>
+			<v>-2.024E-3</v>
+			<v>-1.628E-3</v>
+			<v>-8.225E3</v>
+			<v>6.368E4</v>
+			<v>5.246E3</v>
+			<v>6.433E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu14.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>5.748E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>2.975E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.973E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.517E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>4.581E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.788E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.823E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>2.043E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.788E-1</v>
+			<v>1.603E-1</v>
+			<v>-1.341E-1</v>
+			<v>-1.298E-2</v>
+			<v>5.508E-2</v>
+			<v>5.305E-2</v>
+			<v>3.994E-2</v>
+			<v>3.127E-3</v>
+			<v>8.51E-4</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>3.308E-1</v>
+			<v>3.92E1</v>
+			<v>3.267E3</v>
+			<v>3.306E5</v>
+			<v>6.056E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.002E3</v>
+			<v>2.895E3</v>
+			<v>4.967E1</v>
+			<v>-8.386E6</v>
+			<v>-1.419E5</v>
+			<v>-2.038E3</v>
+			<v>4.877E10</v>
+			<v>1.318E6</v>
+			<v>2.404E4</v>
+			<v>2.061E5</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>5.381E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>4.741E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>3.279E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.469E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.954E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>6.882E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>2.628E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>1.645E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.82E-2</v>
+			<v>1.65E-1</v>
+			<v>1.355E-1</v>
+			<v>7.458E-2</v>
+			<v>8.909E-2</v>
+			<v>8.165E-2</v>
+			<v>6.169E-2</v>
+			<v>5.377E-2</v>
+			<v>6.26E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.388E-1</v>
+			<v>1.467E1</v>
+			<v>1.005E3</v>
+			<v>6.842E4</v>
+			<v>1.29E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>3.563E1</v>
+			<v>1.514E2</v>
+			<v>1.143E1</v>
+			<v>8.76E5</v>
+			<v>2.574E4</v>
+			<v>1.09E3</v>
+			<v>7.618E9</v>
+			<v>2.292E5</v>
+			<v>1.034E4</v>
+			<v>1.504E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>5.656E12</v>
+			<v>7.17E1</v>
+			<v>6.001E0</v>
+			<v>1.101E3</v>
+			<v>-1.634E-3</v>
+			<v>-1.492E-3</v>
+			<v>-6.831E3</v>
+			<v>6.17E4</v>
+			<v>5.164E3</v>
+			<v>4.812E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu15.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.026E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.543E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.127E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.575E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.075E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>4.392E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>4.669E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>5.675E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.253E-1</v>
+			<v>5.975E-1</v>
+			<v>-3.593E-1</v>
+			<v>3.114E-2</v>
+			<v>-1.575E-1</v>
+			<v>-4.746E-2</v>
+			<v>7.93E-2</v>
+			<v>1.947E-2</v>
+			<v>-2.867E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.354E-1</v>
+			<v>4.625E1</v>
+			<v>2.42E3</v>
+			<v>2.027E5</v>
+			<v>3.544E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.127E3</v>
+			<v>3.418E3</v>
+			<v>3.127E1</v>
+			<v>-1.168E7</v>
+			<v>-1.068E5</v>
+			<v>-3.822E2</v>
+			<v>8.011E10</v>
+			<v>1.02E6</v>
+			<v>9.367E3</v>
+			<v>1.403E4</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>9.489E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>8.19E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>7.877E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.618E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>2.294E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>8.928E-3</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>2.619E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>2.151E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>4.338E-2</v>
+			<v>1.47E-1</v>
+			<v>2.161E-1</v>
+			<v>1.1E-1</v>
+			<v>1.147E-1</v>
+			<v>8.969E-2</v>
+			<v>7.789E-2</v>
+			<v>7.555E-2</v>
+			<v>8.225E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.822E-2</v>
+			<v>8.394E0</v>
+			<v>6.173E2</v>
+			<v>6.965E4</v>
+			<v>1.305E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>6.136E1</v>
+			<v>1.516E2</v>
+			<v>2.243E0</v>
+			<v>1.036E6</v>
+			<v>9.956E3</v>
+			<v>1.213E2</v>
+			<v>1.063E10</v>
+			<v>9.418E4</v>
+			<v>1.287E3</v>
+			<v>7.654E3</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>9.292E12</v>
+			<v>7.092E1</v>
+			<v>6E0</v>
+			<v>1.107E3</v>
+			<v>-6.816E-4</v>
+			<v>-1.303E-3</v>
+			<v>-5.844E3</v>
+			<v>6.036E4</v>
+			<v>5.107E3</v>
+			<v>3.967E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu16.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.884E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.936E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.242E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.61E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>2.976E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.259E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.235E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>7.055E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.812E-1</v>
+			<v>4.811E-1</v>
+			<v>-3.294E-1</v>
+			<v>3.119E-1</v>
+			<v>-1.052E-1</v>
+			<v>6.418E-2</v>
+			<v>9.474E-2</v>
+			<v>-6.729E-2</v>
+			<v>8.581E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>4.071E-1</v>
+			<v>5.637E1</v>
+			<v>2.87E3</v>
+			<v>1.962E5</v>
+			<v>3.433E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-9.876E2</v>
+			<v>3.941E3</v>
+			<v>4.649E1</v>
+			<v>-1.553E7</v>
+			<v>-1.845E5</v>
+			<v>-1.389E3</v>
+			<v>1.226E11</v>
+			<v>1.752E6</v>
+			<v>2.143E4</v>
+			<v>1.155E5</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.125E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>9.421E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>1.06E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.628E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>9.769E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>3.787E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>2.637E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>2.347E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>6.526E-2</v>
+			<v>1.392E-1</v>
+			<v>1.255E-1</v>
+			<v>1.121E-1</v>
+			<v>1.19E-1</v>
+			<v>9.768E-2</v>
+			<v>8.431E-2</v>
+			<v>8.574E-2</v>
+			<v>1.157E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.325E-1</v>
+			<v>1.129E1</v>
+			<v>4.338E2</v>
+			<v>2.912E4</v>
+			<v>3.701E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>6.119E1</v>
+			<v>1.517E2</v>
+			<v>1.005E1</v>
+			<v>1.195E6</v>
+			<v>4.636E4</v>
+			<v>8.147E2</v>
+			<v>1.414E10</v>
+			<v>4.278E5</v>
+			<v>8.553E3</v>
+			<v>9.302E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.423E13</v>
+			<v>7.034E1</v>
+			<v>6E0</v>
+			<v>1.111E3</v>
+			<v>-3.447E-4</v>
+			<v>-1.122E-3</v>
+			<v>-5.101E3</v>
+			<v>5.938E4</v>
+			<v>5.065E3</v>
+			<v>3.471E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu17.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.629E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>9.972E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>5.821E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.576E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>6.579E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.686E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.396E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>5.047E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.22E-1</v>
+			<v>-1.593E-1</v>
+			<v>-2.481E-2</v>
+			<v>7.654E-2</v>
+			<v>1.14E-1</v>
+			<v>7.605E-2</v>
+			<v>2.752E-2</v>
+			<v>-2.251E-2</v>
+			<v>3.363E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>7.59E-1</v>
+			<v>5.913E1</v>
+			<v>5.104E3</v>
+			<v>4.198E5</v>
+			<v>8.701E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-7.505E2</v>
+			<v>4.464E3</v>
+			<v>4.581E1</v>
+			<v>-1.992E7</v>
+			<v>-2.027E5</v>
+			<v>-1.103E3</v>
+			<v>1.781E11</v>
+			<v>1.931E6</v>
+			<v>2.091E4</v>
+			<v>8.479E4</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.169E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.414E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>5.258E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.103E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.824E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>6.804E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.113E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>2.51E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>6.72E-2</v>
+			<v>3.199E-1</v>
+			<v>1.941E-1</v>
+			<v>1.525E-1</v>
+			<v>1.323E-1</v>
+			<v>1.081E-1</v>
+			<v>1.049E-1</v>
+			<v>9.838E-2</v>
+			<v>1.096E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.355E-1</v>
+			<v>2.184E1</v>
+			<v>1.654E3</v>
+			<v>1.032E5</v>
+			<v>1.533E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>4.366E1</v>
+			<v>1.515E2</v>
+			<v>1.042E1</v>
+			<v>1.351E6</v>
+			<v>4.035E4</v>
+			<v>9.278E2</v>
+			<v>1.81E10</v>
+			<v>3.529E5</v>
+			<v>8.295E3</v>
+			<v>9.273E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>2.066E13</v>
+			<v>6.989E1</v>
+			<v>6E0</v>
+			<v>1.113E3</v>
+			<v>-5.593E-4</v>
+			<v>-9.953E-4</v>
+			<v>-4.511E3</v>
+			<v>5.861E4</v>
+			<v>5.032E3</v>
+			<v>3.053E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu18.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.018E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.266E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.938E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.489E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.545E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>5.958E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.408E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>6.928E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.732E-1</v>
+			<v>1.212E-1</v>
+			<v>-4.892E-1</v>
+			<v>3.558E-1</v>
+			<v>-9.101E-2</v>
+			<v>3.338E-2</v>
+			<v>1.91E-1</v>
+			<v>-2.465E-2</v>
+			<v>1.418E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.524E-1</v>
+			<v>5.607E1</v>
+			<v>3.606E3</v>
+			<v>2.095E5</v>
+			<v>4.213E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.128E3</v>
+			<v>4.985E3</v>
+			<v>-9.767E0</v>
+			<v>-2.484E7</v>
+			<v>5.139E4</v>
+			<v>4.647E2</v>
+			<v>2.48E11</v>
+			<v>-3.446E5</v>
+			<v>3.813E3</v>
+			<v>1.708E4</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>2.043E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.718E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>1.543E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.899E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>6.217E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>1.993E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.262E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>4.645E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.754E-1</v>
+			<v>2.365E-1</v>
+			<v>2.591E-1</v>
+			<v>2E-1</v>
+			<v>1.861E-1</v>
+			<v>1.413E-1</v>
+			<v>1.071E-1</v>
+			<v>8.735E-2</v>
+			<v>1.124E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>4.92E-2</v>
+			<v>2.053E1</v>
+			<v>1.011E3</v>
+			<v>7.938E4</v>
+			<v>6.856E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>7.364E1</v>
+			<v>1.517E2</v>
+			<v>1.871E1</v>
+			<v>1.511E6</v>
+			<v>9.376E4</v>
+			<v>4.384E2</v>
+			<v>2.261E10</v>
+			<v>8.596E5</v>
+			<v>2.896E3</v>
+			<v>2.81E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>2.876E13</v>
+			<v>6.954E1</v>
+			<v>6E0</v>
+			<v>1.114E3</v>
+			<v>-4.274E-4</v>
+			<v>-9.013E-4</v>
+			<v>-4.055E3</v>
+			<v>5.803E4</v>
+			<v>5.007E3</v>
+			<v>2.703E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu19.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>3.62E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>2.315E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.553E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.607E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>8.305E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>3.643E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.785E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>8.636E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.237E-1</v>
+			<v>3.461E-1</v>
+			<v>-1.537E-1</v>
+			<v>1.215E-1</v>
+			<v>4.285E-2</v>
+			<v>2.842E-2</v>
+			<v>-7.848E-3</v>
+			<v>-2.086E-3</v>
+			<v>-1.098E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.298E-1</v>
+			<v>7.001E1</v>
+			<v>4.075E3</v>
+			<v>2.683E5</v>
+			<v>5.414E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.348E3</v>
+			<v>5.511E3</v>
+			<v>-3.333E1</v>
+			<v>-3.036E7</v>
+			<v>1.835E5</v>
+			<v>-2.744E2</v>
+			<v>3.35E11</v>
+			<v>-1.605E6</v>
+			<v>9.798E3</v>
+			<v>2.262E4</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.843E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.443E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>2.236E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.214E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>5.137E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>2.209E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>2.824E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>3.284E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.245E-1</v>
+			<v>2.452E-1</v>
+			<v>1.271E-1</v>
+			<v>1.309E-1</v>
+			<v>1.132E-1</v>
+			<v>1.118E-1</v>
+			<v>1.062E-1</v>
+			<v>1.018E-1</v>
+			<v>1.254E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>9.402E-2</v>
+			<v>1.378E1</v>
+			<v>9.181E2</v>
+			<v>8.444E4</v>
+			<v>1.5E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>2.299E2</v>
+			<v>1.514E2</v>
+			<v>3.26E0</v>
+			<v>1.668E6</v>
+			<v>1.816E4</v>
+			<v>2.388E2</v>
+			<v>2.757E10</v>
+			<v>1.62E5</v>
+			<v>1.793E3</v>
+			<v>1.46E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>3.886E13</v>
+			<v>6.924E1</v>
+			<v>6E0</v>
+			<v>1.115E3</v>
+			<v>-2.351E-4</v>
+			<v>-8.175E-4</v>
+			<v>-3.655E3</v>
+			<v>5.754E4</v>
+			<v>4.986E3</v>
+			<v>2.44E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu2.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.597E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.096E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>6.419E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.652E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>2.227E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>9.041E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>3.904E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>4.936E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.222E-1</v>
+			<v>1.695E-1</v>
+			<v>-2.536E-1</v>
+			<v>-3.017E-3</v>
+			<v>-7.388E-2</v>
+			<v>2.603E-3</v>
+			<v>1.152E-2</v>
+			<v>3.697E-2</v>
+			<v>-2.923E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>2.417E-1</v>
+			<v>5.536E1</v>
+			<v>3.848E3</v>
+			<v>2.9E5</v>
+			<v>5.674E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.07E3</v>
+			<v>6.033E3</v>
+			<v>-4.438E1</v>
+			<v>-3.638E7</v>
+			<v>2.688E5</v>
+			<v>-1.182E3</v>
+			<v>4.393E11</v>
+			<v>-2.381E6</v>
+			<v>1.818E4</v>
+			<v>-6.524E4</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.442E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.394E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>1.031E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.177E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.021E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>3.896E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.248E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>3.513E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.006E-1</v>
+			<v>2.483E-1</v>
+			<v>1.663E-1</v>
+			<v>1.258E-1</v>
+			<v>9.873E-2</v>
+			<v>1.047E-1</v>
+			<v>9.107E-2</v>
+			<v>8.823E-2</v>
+			<v>1.093E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.124E-1</v>
+			<v>1.764E1</v>
+			<v>1.189E3</v>
+			<v>1.033E5</v>
+			<v>1.836E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>5.63E1</v>
+			<v>1.513E2</v>
+			<v>9.049E0</v>
+			<v>1.825E6</v>
+			<v>6.001E4</v>
+			<v>7.644E2</v>
+			<v>3.304E10</v>
+			<v>5.555E5</v>
+			<v>6.573E3</v>
+			<v>7.168E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>5.095E13</v>
+			<v>6.901E1</v>
+			<v>6E0</v>
+			<v>1.117E3</v>
+			<v>-2.531E-4</v>
+			<v>-7.494E-4</v>
+			<v>-3.353E3</v>
+			<v>5.715E4</v>
+			<v>4.969E3</v>
+			<v>2.222E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu20.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.358E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.582E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>6.148E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.667E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>5.531E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.29E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.3E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>6.228E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.893E-1</v>
+			<v>2.383E-1</v>
+			<v>-1.155E-1</v>
+			<v>1.031E-1</v>
+			<v>8.272E-3</v>
+			<v>-5.284E-2</v>
+			<v>-1.992E-3</v>
+			<v>3.466E-2</v>
+			<v>-3.196E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>6.345E-2</v>
+			<v>5.944E1</v>
+			<v>4.045E3</v>
+			<v>3.12E5</v>
+			<v>6.049E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.402E3</v>
+			<v>6.554E3</v>
+			<v>-5.185E1</v>
+			<v>-4.294E7</v>
+			<v>3.399E5</v>
+			<v>-1.694E3</v>
+			<v>5.633E11</v>
+			<v>-3.074E6</v>
+			<v>2.441E4</v>
+			<v>-1.087E5</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.634E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.384E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>1.009E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.797E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>3.129E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>1.221E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.497E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>3.466E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.048E-1</v>
+			<v>2.291E-1</v>
+			<v>1.885E-1</v>
+			<v>1.217E-1</v>
+			<v>1.257E-1</v>
+			<v>1.543E-1</v>
+			<v>1.178E-1</v>
+			<v>1.092E-1</v>
+			<v>1.171E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.863E-2</v>
+			<v>1.898E1</v>
+			<v>1.113E3</v>
+			<v>7.375E4</v>
+			<v>1.378E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.154E2</v>
+			<v>1.514E2</v>
+			<v>3.603E0</v>
+			<v>1.984E6</v>
+			<v>2.911E4</v>
+			<v>3.938E2</v>
+			<v>3.901E10</v>
+			<v>2.565E5</v>
+			<v>3.444E3</v>
+			<v>5.224E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>6.533E13</v>
+			<v>6.881E1</v>
+			<v>6E0</v>
+			<v>1.117E3</v>
+			<v>-1.758E-4</v>
+			<v>-6.907E-4</v>
+			<v>-3.098E3</v>
+			<v>5.682E4</v>
+			<v>4.955E3</v>
+			<v>2.043E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu3.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.592E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.121E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>6.21E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.569E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>2.111E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>8.504E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>4.804E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>4.746E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.427E-1</v>
+			<v>3.952E-1</v>
+			<v>-1.311E-1</v>
+			<v>9.337E-2</v>
+			<v>-1.341E-1</v>
+			<v>2.98E-2</v>
+			<v>-6.419E-2</v>
+			<v>-1.022E-1</v>
+			<v>-2.347E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>2.281E-1</v>
+			<v>4.988E1</v>
+			<v>3.391E3</v>
+			<v>2.963E5</v>
+			<v>5.281E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.046E3</v>
+			<v>7.076E3</v>
+			<v>-6.672E1</v>
+			<v>-5.005E7</v>
+			<v>4.729E5</v>
+			<v>-3.488E3</v>
+			<v>7.087E11</v>
+			<v>-4.248E6</v>
+			<v>4.044E4</v>
+			<v>-3.949E5</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>8.875E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>7.224E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>8.737E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.431E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>7.871E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>2.502E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.843E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>2.067E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>4.152E-2</v>
+			<v>1.716E-1</v>
+			<v>1.017E-1</v>
+			<v>8.761E-2</v>
+			<v>1.081E-1</v>
+			<v>1.141E-1</v>
+			<v>9.287E-2</v>
+			<v>9.712E-2</v>
+			<v>8.332E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>6.553E-2</v>
+			<v>1.081E1</v>
+			<v>6.332E2</v>
+			<v>4.279E4</v>
+			<v>8.009E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>4.252E1</v>
+			<v>1.516E2</v>
+			<v>7.422E0</v>
+			<v>2.144E6</v>
+			<v>6.256E4</v>
+			<v>1.043E3</v>
+			<v>4.551E10</v>
+			<v>5.472E5</v>
+			<v>8.903E3</v>
+			<v>1.929E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>8.22E13</v>
+			<v>6.864E1</v>
+			<v>6E0</v>
+			<v>1.118E3</v>
+			<v>-1.877E-4</v>
+			<v>-6.436E-4</v>
+			<v>-2.867E3</v>
+			<v>5.654E4</v>
+			<v>4.942E3</v>
+			<v>1.881E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu4.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.083E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.478E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>5.212E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.557E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.938E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>8.117E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.404E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>5.836E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.234E-1</v>
+			<v>4.892E-1</v>
+			<v>-1.145E-1</v>
+			<v>2.856E-2</v>
+			<v>-1.387E-1</v>
+			<v>-5.869E-3</v>
+			<v>-2.203E-2</v>
+			<v>-6.588E-2</v>
+			<v>-4.156E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>2.6E-1</v>
+			<v>5.321E1</v>
+			<v>3.177E3</v>
+			<v>2.745E5</v>
+			<v>4.891E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.056E3</v>
+			<v>7.599E3</v>
+			<v>-8.799E1</v>
+			<v>-5.773E7</v>
+			<v>6.687E5</v>
+			<v>-6.852E3</v>
+			<v>8.777E11</v>
+			<v>-5.907E6</v>
+			<v>6.843E4</v>
+			<v>-1.113E6</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>8.315E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>5.672E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.596E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>5.62E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>1.881E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.428E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>1.809E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>3.703E-2</v>
+			<v>1.299E-1</v>
+			<v>6.665E-2</v>
+			<v>8.229E-2</v>
+			<v>9.458E-2</v>
+			<v>1.036E-1</v>
+			<v>6.317E-2</v>
+			<v>5.918E-2</v>
+			<v>6.262E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>4.915E-2</v>
+			<v>7.351E0</v>
+			<v>4.466E2</v>
+			<v>2.977E4</v>
+			<v>5.727E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>3.544E1</v>
+			<v>1.515E2</v>
+			<v>2.976E0</v>
+			<v>2.301E6</v>
+			<v>3.48E4</v>
+			<v>5.436E2</v>
+			<v>5.246E10</v>
+			<v>3.128E5</v>
+			<v>4.741E3</v>
+			<v>1.374E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.018E14</v>
+			<v>6.849E1</v>
+			<v>6E0</v>
+			<v>1.118E3</v>
+			<v>-1.335E-4</v>
+			<v>-6.066E-4</v>
+			<v>-2.673E3</v>
+			<v>5.63E4</v>
+			<v>4.932E3</v>
+			<v>1.729E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu5.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.827E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.266E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>2.899E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.732E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>6.606E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.661E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>4.608E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>5.152E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.27E-1</v>
+			<v>3.657E-1</v>
+			<v>-3.072E-1</v>
+			<v>1.144E-1</v>
+			<v>2.955E-2</v>
+			<v>-2.239E-2</v>
+			<v>-8.631E-3</v>
+			<v>5.942E-2</v>
+			<v>-1.341E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>6.894E-2</v>
+			<v>4.99E1</v>
+			<v>3.25E3</v>
+			<v>2.642E5</v>
+			<v>4.846E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.325E3</v>
+			<v>8.121E3</v>
+			<v>-1.003E2</v>
+			<v>-6.593E7</v>
+			<v>8.147E5</v>
+			<v>-9.154E3</v>
+			<v>1.071E12</v>
+			<v>-7.253E6</v>
+			<v>8.966E4</v>
+			<v>-1.73E6</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.147E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.187E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>4.163E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.717E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>2.593E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>9.852E-3</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.742E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>2.663E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>6.52E-2</v>
+			<v>2.391E-1</v>
+			<v>1.365E-1</v>
+			<v>1.427E-1</v>
+			<v>1.189E-1</v>
+			<v>1.471E-1</v>
+			<v>1.495E-1</v>
+			<v>1.199E-1</v>
+			<v>1.286E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>2.521E-2</v>
+			<v>1.42E1</v>
+			<v>1.005E3</v>
+			<v>5.715E4</v>
+			<v>1.186E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.161E2</v>
+			<v>1.511E2</v>
+			<v>3.129E0</v>
+			<v>2.453E6</v>
+			<v>3.684E4</v>
+			<v>5.993E2</v>
+			<v>5.975E10</v>
+			<v>3.48E5</v>
+			<v>5.67E3</v>
+			<v>1.68E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.242E14</v>
+			<v>6.836E1</v>
+			<v>6E0</v>
+			<v>1.119E3</v>
+			<v>-1.104E-4</v>
+			<v>-5.718E-4</v>
+			<v>-2.496E3</v>
+			<v>5.608E4</v>
+			<v>4.922E3</v>
+			<v>1.606E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu6.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>9.326E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>5.266E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>4.139E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.603E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>2.541E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.016E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.35E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>2.909E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.606E-1</v>
+			<v>2.501E-1</v>
+			<v>-1.731E-1</v>
+			<v>1.482E-2</v>
+			<v>-3.982E-2</v>
+			<v>2.726E-2</v>
+			<v>6.307E-4</v>
+			<v>1.168E-2</v>
+			<v>-1.73E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>2.374E-1</v>
+			<v>4.367E1</v>
+			<v>3.194E3</v>
+			<v>2.789E5</v>
+			<v>5.129E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.048E3</v>
+			<v>8.644E3</v>
+			<v>-1.195E2</v>
+			<v>-7.468E7</v>
+			<v>1.034E6</v>
+			<v>-1.34E4</v>
+			<v>1.291E12</v>
+			<v>-9.306E6</v>
+			<v>1.294E5</v>
+			<v>-3.116E6</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>7.024E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>6.428E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>6.253E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.441E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>7.115E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>2.623E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>3.581E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>2.202E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>4.797E-2</v>
+			<v>2.537E-1</v>
+			<v>1.946E-1</v>
+			<v>1.389E-1</v>
+			<v>1.029E-1</v>
+			<v>9.031E-2</v>
+			<v>7.536E-2</v>
+			<v>8.46E-2</v>
+			<v>8.489E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.06E-1</v>
+			<v>1.683E1</v>
+			<v>1.394E3</v>
+			<v>1.11E5</v>
+			<v>2.245E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>5.674E1</v>
+			<v>1.514E2</v>
+			<v>1.005E1</v>
+			<v>2.616E6</v>
+			<v>1.049E5</v>
+			<v>2.485E3</v>
+			<v>6.783E10</v>
+			<v>9.373E5</v>
+			<v>2.178E4</v>
+			<v>8.806E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.498E14</v>
+			<v>6.825E1</v>
+			<v>6E0</v>
+			<v>1.119E3</v>
+			<v>-1.675E-4</v>
+			<v>-5.457E-4</v>
+			<v>-2.349E3</v>
+			<v>5.59E4</v>
+			<v>4.914E3</v>
+			<v>1.483E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu7.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.673E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.833E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>2.341E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.615E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>4.777E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.02E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.031E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>6.586E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.054E-1</v>
+			<v>6.064E-1</v>
+			<v>-1.885E-1</v>
+			<v>-3.557E-2</v>
+			<v>-4.517E-2</v>
+			<v>8.953E-2</v>
+			<v>4.858E-2</v>
+			<v>4.247E-2</v>
+			<v>3.073E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>6.892E-2</v>
+			<v>5.123E1</v>
+			<v>2.717E3</v>
+			<v>2.455E5</v>
+			<v>4.378E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.464E3</v>
+			<v>9.167E3</v>
+			<v>-1.083E2</v>
+			<v>-8.401E7</v>
+			<v>9.906E5</v>
+			<v>-1.082E4</v>
+			<v>1.541E12</v>
+			<v>-8.863E6</v>
+			<v>1.068E5</v>
+			<v>-2.295E6</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>7.529E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>7.005E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>2.769E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.689E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.93E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>7.967E-3</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.087E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>1.637E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>5.165E-2</v>
+			<v>2.225E-1</v>
+			<v>2.155E-1</v>
+			<v>1.198E-1</v>
+			<v>1.095E-1</v>
+			<v>1.138E-1</v>
+			<v>8.22E-2</v>
+			<v>6.834E-2</v>
+			<v>6.449E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3E-2</v>
+			<v>1.027E1</v>
+			<v>1.028E3</v>
+			<v>7.598E4</v>
+			<v>1.617E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.216E2</v>
+			<v>1.519E2</v>
+			<v>1.41E1</v>
+			<v>2.784E6</v>
+			<v>1.124E5</v>
+			<v>3.294E3</v>
+			<v>7.656E10</v>
+			<v>1.044E6</v>
+			<v>2.906E4</v>
+			<v>1.089E6</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.787E14</v>
+			<v>6.816E1</v>
+			<v>6E0</v>
+			<v>1.119E3</v>
+			<v>1.948E-5</v>
+			<v>-5.07E-4</v>
+			<v>-2.224E3</v>
+			<v>5.575E4</v>
+			<v>4.908E3</v>
+			<v>1.422E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu8.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>4.242E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>3.203E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>8.172E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.545E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>6.147E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.799E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.5E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>1.047E2</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-7.551E-1</v>
+			<v>8.886E-2</v>
+			<v>-1.382E-1</v>
+			<v>4.289E-2</v>
+			<v>1.111E-1</v>
+			<v>6.465E-2</v>
+			<v>-3.466E-3</v>
+			<v>-9.884E-2</v>
+			<v>-1.729E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.061E-1</v>
+			<v>7.842E1</v>
+			<v>4.949E3</v>
+			<v>2.977E5</v>
+			<v>6.533E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.292E3</v>
+			<v>9.693E3</v>
+			<v>-1.008E2</v>
+			<v>-9.392E7</v>
+			<v>9.767E5</v>
+			<v>-9.039E3</v>
+			<v>1.821E12</v>
+			<v>-8.76E6</v>
+			<v>9.12E4</v>
+			<v>-1.695E6</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.873E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.828E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>6.432E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.092E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>2.357E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>8.83E-3</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>2.287E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>3.753E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.364E-1</v>
+			<v>2.357E-1</v>
+			<v>2.248E-1</v>
+			<v>1.74E-1</v>
+			<v>1.34E-1</v>
+			<v>1.388E-1</v>
+			<v>1.2E-1</v>
+			<v>1.451E-1</v>
+			<v>1.519E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.763E-2</v>
+			<v>1.316E1</v>
+			<v>8.185E2</v>
+			<v>8.865E4</v>
+			<v>1.299E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>7.565E1</v>
+			<v>1.528E2</v>
+			<v>4.501E0</v>
+			<v>2.961E6</v>
+			<v>5.489E4</v>
+			<v>9.388E2</v>
+			<v>8.61E10</v>
+			<v>5.254E5</v>
+			<v>8.312E3</v>
+			<v>2.665E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>2.131E14</v>
+			<v>6.859E1</v>
+			<v>6E0</v>
+			<v>1.139E3</v>
+			<v>-8.774E-5</v>
+			<v>-4.75E-4</v>
+			<v>-2.174E3</v>
+			<v>5.646E4</v>
+			<v>4.939E3</v>
+			<v>1.358E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\mu9.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.292E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>6.982E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>2.069E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.552E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.116E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>4.505E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.485E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>4.683E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.409E-1</v>
+			<v>-1.516E-1</v>
+			<v>-8.254E-2</v>
+			<v>2.881E-2</v>
+			<v>-7.338E-2</v>
+			<v>1.274E-2</v>
+			<v>-1.069E-2</v>
+			<v>-2.709E-2</v>
+			<v>-1.081E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.162E-1</v>
+			<v>6.305E1</v>
+			<v>5.315E3</v>
+			<v>4.203E5</v>
+			<v>8.33E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.214E3</v>
+			<v>1.022E4</v>
+			<v>-1.137E2</v>
+			<v>-1.044E8</v>
+			<v>1.163E6</v>
+			<v>-1.187E4</v>
+			<v>2.134E12</v>
+			<v>-1.05E7</v>
+			<v>1.174E5</v>
+			<v>-2.584E6</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>8.896E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>8.875E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>2.16E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.017E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>4.23E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>1.344E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>6.624E-3</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>2.381E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>4.542E-2</v>
+			<v>1.703E-1</v>
+			<v>8.953E-2</v>
+			<v>8.479E-2</v>
+			<v>8.023E-2</v>
+			<v>7.657E-2</v>
+			<v>7.689E-2</v>
+			<v>8.322E-2</v>
+			<v>8.274E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.042E-2</v>
+			<v>1.137E1</v>
+			<v>7.478E2</v>
+			<v>6.849E4</v>
+			<v>1.096E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>3.755E1</v>
+			<v>1.527E2</v>
+			<v>8.95E0</v>
+			<v>3.12E6</v>
+			<v>1.085E5</v>
+			<v>2.044E3</v>
+			<v>9.564E10</v>
+			<v>9.819E5</v>
+			<v>1.831E4</v>
+			<v>6.668E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>2.497E14</v>
+			<v>6.851E1</v>
+			<v>6E0</v>
+			<v>1.139E3</v>
+			<v>-1.087E-4</v>
+			<v>-4.536E-4</v>
+			<v>-2.058E3</v>
+			<v>5.632E4</v>
+			<v>4.933E3</v>
+			<v>1.279E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp1.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>3.686E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>2.21E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>4.703E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.528E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>4.485E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.821E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.585E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>7.941E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-7.554E-1</v>
+			<v>3.575E-1</v>
+			<v>-4.068E-2</v>
+			<v>2.811E-2</v>
+			<v>6.752E-2</v>
+			<v>-1.635E-2</v>
+			<v>4.579E-2</v>
+			<v>6.997E-2</v>
+			<v>4.432E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>4.235E-2</v>
+			<v>6.029E1</v>
+			<v>3.428E3</v>
+			<v>2.075E5</v>
+			<v>5.62E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.603E3</v>
+			<v>1.074E4</v>
+			<v>-1.141E2</v>
+			<v>-1.154E8</v>
+			<v>1.223E6</v>
+			<v>-1.188E4</v>
+			<v>2.479E12</v>
+			<v>-1.11E7</v>
+			<v>1.195E5</v>
+			<v>-2.617E6</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>5.108E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.936E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>6.492E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.788E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>3.809E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>1.408E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.736E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>9.306E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>4.534E-1</v>
+			<v>3.941E-1</v>
+			<v>2.669E-1</v>
+			<v>1.897E-1</v>
+			<v>2.014E-1</v>
+			<v>1.318E-1</v>
+			<v>1.297E-1</v>
+			<v>1.135E-1</v>
+			<v>1.048E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.144E-2</v>
+			<v>4.105E1</v>
+			<v>1.731E3</v>
+			<v>2.108E5</v>
+			<v>2.113E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.412E2</v>
+			<v>1.515E2</v>
+			<v>1.267E1</v>
+			<v>3.254E6</v>
+			<v>1.196E5</v>
+			<v>3.016E3</v>
+			<v>1.049E11</v>
+			<v>1.068E6</v>
+			<v>2.581E4</v>
+			<v>9.845E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>2.876E14</v>
+			<v>6.791E1</v>
+			<v>6E0</v>
+			<v>1.12E3</v>
+			<v>1.12E-6</v>
+			<v>-4.306E-4</v>
+			<v>-1.896E3</v>
+			<v>5.534E4</v>
+			<v>4.89E3</v>
+			<v>1.22E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp10.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>3.191E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.886E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>2.057E-2</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.483E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>6.458E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.575E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>6.127E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>7.315E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.06E-1</v>
+			<v>5.14E-1</v>
+			<v>8.635E-2</v>
+			<v>6.621E-3</v>
+			<v>9.204E-3</v>
+			<v>2.078E-2</v>
+			<v>3.006E-2</v>
+			<v>5.165E-2</v>
+			<v>3.722E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>4.122E-1</v>
+			<v>4.875E1</v>
+			<v>2.536E3</v>
+			<v>1.844E5</v>
+			<v>4.382E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.247E3</v>
+			<v>1.126E4</v>
+			<v>-9.158E1</v>
+			<v>-1.268E8</v>
+			<v>1.031E6</v>
+			<v>-6.792E3</v>
+			<v>2.858E12</v>
+			<v>-9.307E6</v>
+			<v>7.599E4</v>
+			<v>-1.08E6</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>4.629E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.782E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>3.272E-2</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.168E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>7.422E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>2.707E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>2.892E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>8.655E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>3.837E-1</v>
+			<v>3.544E-1</v>
+			<v>2.646E-1</v>
+			<v>2.236E-1</v>
+			<v>2.296E-1</v>
+			<v>1.283E-1</v>
+			<v>1.073E-1</v>
+			<v>9.578E-2</v>
+			<v>1.143E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.925E-1</v>
+			<v>4.171E1</v>
+			<v>1.662E3</v>
+			<v>1.445E5</v>
+			<v>2.063E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>2.953E2</v>
+			<v>1.512E2</v>
+			<v>5.644E0</v>
+			<v>3.405E6</v>
+			<v>5.64E4</v>
+			<v>1.035E3</v>
+			<v>1.151E11</v>
+			<v>4.935E5</v>
+			<v>8.618E3</v>
+			<v>2.396E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>3.315E14</v>
+			<v>6.784E1</v>
+			<v>6E0</v>
+			<v>1.12E3</v>
+			<v>-4.324E-5</v>
+			<v>-4.045E-4</v>
+			<v>-1.791E3</v>
+			<v>5.523E4</v>
+			<v>4.885E3</v>
+			<v>1.182E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp11.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>3.238E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.979E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>5.069E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.546E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>4.212E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.704E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.962E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>6.906E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-7.903E-1</v>
+			<v>3.744E-1</v>
+			<v>-5.573E-2</v>
+			<v>8.154E-2</v>
+			<v>5.36E-2</v>
+			<v>-3.165E-2</v>
+			<v>5.348E-2</v>
+			<v>6.387E-2</v>
+			<v>-2.124E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>3.523E-2</v>
+			<v>5.662E1</v>
+			<v>3.377E3</v>
+			<v>2.208E5</v>
+			<v>5.62E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.665E3</v>
+			<v>1.179E4</v>
+			<v>-5.166E1</v>
+			<v>-1.39E8</v>
+			<v>6.079E5</v>
+			<v>-6.392E2</v>
+			<v>3.277E12</v>
+			<v>-5.351E6</v>
+			<v>2.413E4</v>
+			<v>5.645E4</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>4.633E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.887E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>9.861E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.869E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>4.442E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>1.631E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.169E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>8.301E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>3.999E-1</v>
+			<v>3.973E-1</v>
+			<v>3.034E-1</v>
+			<v>2.08E-1</v>
+			<v>1.765E-1</v>
+			<v>1.614E-1</v>
+			<v>1.531E-1</v>
+			<v>1.351E-1</v>
+			<v>1.079E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.167E-2</v>
+			<v>3.911E1</v>
+			<v>1.649E3</v>
+			<v>2.021E5</v>
+			<v>1.94E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.509E2</v>
+			<v>1.515E2</v>
+			<v>8.144E0</v>
+			<v>3.572E6</v>
+			<v>8.879E4</v>
+			<v>1.032E3</v>
+			<v>1.263E11</v>
+			<v>8.676E5</v>
+			<v>8.535E3</v>
+			<v>1.301E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>3.801E14</v>
+			<v>6.779E1</v>
+			<v>6E0</v>
+			<v>1.12E3</v>
+			<v>-4.047E-5</v>
+			<v>-3.823E-4</v>
+			<v>-1.728E3</v>
+			<v>5.514E4</v>
+			<v>4.881E3</v>
+			<v>1.142E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp12.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>4.251E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>2.522E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>9.339E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.517E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.794E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>7.304E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>4.95E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>8.831E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-7.316E-1</v>
+			<v>3.691E-1</v>
+			<v>-4.693E-2</v>
+			<v>4.744E-2</v>
+			<v>4.78E-2</v>
+			<v>5.358E-2</v>
+			<v>1.748E-1</v>
+			<v>6.787E-2</v>
+			<v>1.741E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.714E-1</v>
+			<v>6.607E1</v>
+			<v>3.64E3</v>
+			<v>1.931E5</v>
+			<v>5.569E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.361E3</v>
+			<v>1.231E4</v>
+			<v>-2.428E1</v>
+			<v>-1.515E8</v>
+			<v>2.966E5</v>
+			<v>1.609E3</v>
+			<v>3.731E12</v>
+			<v>-2.232E6</v>
+			<v>6.707E3</v>
+			<v>1.464E5</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>5.22E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>3.12E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>9.402E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.222E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.191E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>4.224E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>6.481E-3</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>9.358E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>4.527E-1</v>
+			<v>4.739E-1</v>
+			<v>2.709E-1</v>
+			<v>2.06E-1</v>
+			<v>2.069E-1</v>
+			<v>1.635E-1</v>
+			<v>1.931E-1</v>
+			<v>1.489E-1</v>
+			<v>1.168E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>9.397E-2</v>
+			<v>4.121E1</v>
+			<v>2.034E3</v>
+			<v>1.95E5</v>
+			<v>2.389E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.237E2</v>
+			<v>1.509E2</v>
+			<v>1.604E1</v>
+			<v>3.716E6</v>
+			<v>1.95E5</v>
+			<v>7.981E2</v>
+			<v>1.372E11</v>
+			<v>1.739E6</v>
+			<v>5.298E3</v>
+			<v>6.857E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>4.328E14</v>
+			<v>6.773E1</v>
+			<v>6E0</v>
+			<v>1.12E3</v>
+			<v>-3.239E-5</v>
+			<v>-3.654E-4</v>
+			<v>-1.645E3</v>
+			<v>5.504E4</v>
+			<v>4.876E3</v>
+			<v>1.096E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp13.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.024E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.17E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.945E-2</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.548E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>8.585E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>3.313E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.235E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>4.892E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.869E-1</v>
+			<v>5.12E-1</v>
+			<v>9.922E-2</v>
+			<v>5.21E-2</v>
+			<v>2.815E-2</v>
+			<v>2.038E-2</v>
+			<v>2.881E-2</v>
+			<v>3.832E-2</v>
+			<v>6.551E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>5.415E-1</v>
+			<v>3.724E1</v>
+			<v>2.199E3</v>
+			<v>1.834E5</v>
+			<v>4.121E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.01E3</v>
+			<v>1.283E4</v>
+			<v>-3.03E-1</v>
+			<v>-1.646E8</v>
+			<v>4.778E3</v>
+			<v>2.777E3</v>
+			<v>4.226E12</v>
+			<v>4.756E5</v>
+			<v>4.763E2</v>
+			<v>4.208E4</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>3.43E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.006E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>2.671E-2</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.963E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>7.216E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>2.604E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.522E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>6.759E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>3.012E-1</v>
+			<v>3.644E-1</v>
+			<v>2.622E-1</v>
+			<v>1.977E-1</v>
+			<v>2.058E-1</v>
+			<v>1.466E-1</v>
+			<v>9.387E-2</v>
+			<v>1.016E-1</v>
+			<v>9.465E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.985E-1</v>
+			<v>3.404E1</v>
+			<v>1.777E3</v>
+			<v>1.289E5</v>
+			<v>2.018E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>2.807E2</v>
+			<v>1.509E2</v>
+			<v>7.408E0</v>
+			<v>3.872E6</v>
+			<v>9.462E4</v>
+			<v>5.854E1</v>
+			<v>1.491E11</v>
+			<v>8.514E5</v>
+			<v>5.387E2</v>
+			<v>6.151E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>4.901E14</v>
+			<v>6.768E1</v>
+			<v>6E0</v>
+			<v>1.12E3</v>
+			<v>-5.116E-5</v>
+			<v>-3.504E-4</v>
+			<v>-1.574E3</v>
+			<v>5.496E4</v>
+			<v>4.873E3</v>
+			<v>1.052E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp14.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.984E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.972E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>7.706E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.605E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.618E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>6.576E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.222E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>6.566E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.52E-1</v>
+			<v>6.04E-1</v>
+			<v>-4.46E-1</v>
+			<v>3.32E-1</v>
+			<v>-2.425E-1</v>
+			<v>1.345E-1</v>
+			<v>-2.633E-2</v>
+			<v>1.371E-1</v>
+			<v>-2.59E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.741E-1</v>
+			<v>4.751E1</v>
+			<v>1.755E3</v>
+			<v>6.596E4</v>
+			<v>1.217E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.239E3</v>
+			<v>1.336E4</v>
+			<v>5.905E0</v>
+			<v>-1.783E8</v>
+			<v>-7.969E4</v>
+			<v>2.964E3</v>
+			<v>4.764E12</v>
+			<v>1.344E6</v>
+			<v>9.094E2</v>
+			<v>-1.184E4</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>2.719E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.75E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>1.038E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.877E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.241E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>4.748E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>2.225E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>5.429E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.161E-1</v>
+			<v>2.105E-1</v>
+			<v>1.99E-1</v>
+			<v>1.942E-1</v>
+			<v>2.643E-1</v>
+			<v>1.861E-1</v>
+			<v>2.797E-1</v>
+			<v>1.536E-1</v>
+			<v>1.908E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.23E-1</v>
+			<v>2.339E1</v>
+			<v>8.371E2</v>
+			<v>5.691E4</v>
+			<v>7.068E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.471E2</v>
+			<v>1.525E2</v>
+			<v>5.936E0</v>
+			<v>4.073E6</v>
+			<v>7.982E4</v>
+			<v>3.42E1</v>
+			<v>1.632E11</v>
+			<v>7.357E5</v>
+			<v>7.937E2</v>
+			<v>5.25E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>5.574E14</v>
+			<v>6.815E1</v>
+			<v>6E0</v>
+			<v>1.14E3</v>
+			<v>-3.836E-5</v>
+			<v>-3.367E-4</v>
+			<v>-1.577E3</v>
+			<v>5.574E4</v>
+			<v>4.907E3</v>
+			<v>1.011E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp15.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>3.325E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>2.308E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>4.645E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.545E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.049E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>4.339E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>6.238E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>7.357E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.179E-1</v>
+			<v>4.719E-1</v>
+			<v>-1.22E-1</v>
+			<v>-6.671E-2</v>
+			<v>-1.067E-2</v>
+			<v>-6.28E-3</v>
+			<v>2.681E-2</v>
+			<v>3.002E-2</v>
+			<v>1.874E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.193E-1</v>
+			<v>5.737E1</v>
+			<v>3.088E3</v>
+			<v>2.03E5</v>
+			<v>4.634E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.474E3</v>
+			<v>1.388E4</v>
+			<v>3.713E1</v>
+			<v>-1.926E8</v>
+			<v>-5.169E5</v>
+			<v>1.856E3</v>
+			<v>5.345E12</v>
+			<v>5.329E6</v>
+			<v>1.555E4</v>
+			<v>-2.018E5</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>3.173E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.412E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>7.232E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.844E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.117E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>4.414E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.388E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>6.332E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.623E-1</v>
+			<v>3.846E-1</v>
+			<v>2.193E-1</v>
+			<v>1.505E-1</v>
+			<v>1.448E-1</v>
+			<v>1.48E-1</v>
+			<v>1.261E-1</v>
+			<v>1.172E-1</v>
+			<v>1.223E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.213E-1</v>
+			<v>3.159E1</v>
+			<v>1.737E3</v>
+			<v>1.111E5</v>
+			<v>1.881E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>2.637E2</v>
+			<v>1.503E2</v>
+			<v>1.224E1</v>
+			<v>4.171E6</v>
+			<v>1.749E5</v>
+			<v>7.454E2</v>
+			<v>1.736E11</v>
+			<v>1.585E6</v>
+			<v>8.428E3</v>
+			<v>4.507E4</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>6.2E14</v>
+			<v>6.758E1</v>
+			<v>6E0</v>
+			<v>1.12E3</v>
+			<v>-2.872E-5</v>
+			<v>-3.239E-4</v>
+			<v>-1.453E3</v>
+			<v>5.481E4</v>
+			<v>4.866E3</v>
+			<v>9.734E-4</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp16.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>4.778E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>3.479E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>4.144E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.547E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>3.921E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.729E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>4.3E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>1.042E2</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-6.942E-1</v>
+			<v>1.06E-1</v>
+			<v>-2.672E-1</v>
+			<v>8.304E-2</v>
+			<v>-5.182E-2</v>
+			<v>-6.803E-3</v>
+			<v>2.621E-2</v>
+			<v>1.361E-1</v>
+			<v>1.665E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>5.758E-1</v>
+			<v>8.941E1</v>
+			<v>4.82E3</v>
+			<v>1.691E5</v>
+			<v>5.436E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.224E3</v>
+			<v>1.44E4</v>
+			<v>1.38E2</v>
+			<v>-2.073E8</v>
+			<v>-1.994E6</v>
+			<v>-1.713E4</v>
+			<v>5.972E12</v>
+			<v>1.862E7</v>
+			<v>1.995E5</v>
+			<v>5.444E6</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>3.343E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.53E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>3.601E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.449E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>2.033E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>7.639E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.649E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>6.038E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.749E-1</v>
+			<v>2.71E-1</v>
+			<v>1.919E-1</v>
+			<v>1.78E-1</v>
+			<v>1.923E-1</v>
+			<v>1.799E-1</v>
+			<v>1.601E-1</v>
+			<v>1.595E-1</v>
+			<v>1.986E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>2.932E-1</v>
+			<v>2.221E1</v>
+			<v>9.384E2</v>
+			<v>1.406E5</v>
+			<v>1.228E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>6.729E1</v>
+			<v>1.516E2</v>
+			<v>4.923E1</v>
+			<v>4.365E6</v>
+			<v>7.297E5</v>
+			<v>1.331E4</v>
+			<v>1.886E11</v>
+			<v>6.592E6</v>
+			<v>1.263E5</v>
+			<v>5.538E6</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>6.927E14</v>
+			<v>6.755E1</v>
+			<v>6E0</v>
+			<v>1.12E3</v>
+			<v>9.041E-5</v>
+			<v>-3.023E-4</v>
+			<v>-1.415E3</v>
+			<v>5.476E4</v>
+			<v>4.864E3</v>
+			<v>9.679E-4</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp17.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>4.575E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>3.262E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>7.723E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.569E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>5.224E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.303E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>4.873E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>1.044E2</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-7.29E-1</v>
+			<v>2.606E-2</v>
+			<v>-2.2E-1</v>
+			<v>1.267E-1</v>
+			<v>6.8E-2</v>
+			<v>7.791E-2</v>
+			<v>1.317E-1</v>
+			<v>1.742E-1</v>
+			<v>1.025E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>7.789E-1</v>
+			<v>8.933E1</v>
+			<v>5.173E3</v>
+			<v>1.969E5</v>
+			<v>5.936E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.103E3</v>
+			<v>1.492E4</v>
+			<v>2.735E2</v>
+			<v>-2.226E8</v>
+			<v>-4.085E6</v>
+			<v>-7.03E4</v>
+			<v>6.645E12</v>
+			<v>3.756E7</v>
+			<v>6.965E5</v>
+			<v>3.814E7</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>2.502E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.357E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>6.59E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.624E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>2.556E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>9.449E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.116E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>4.709E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.027E-1</v>
+			<v>2.8E-1</v>
+			<v>2.233E-1</v>
+			<v>2.119E-1</v>
+			<v>1.908E-1</v>
+			<v>1.737E-1</v>
+			<v>1.617E-1</v>
+			<v>2.002E-1</v>
+			<v>2.069E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.183E-1</v>
+			<v>1.782E1</v>
+			<v>1.088E3</v>
+			<v>1.31E5</v>
+			<v>1.394E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.159E2</v>
+			<v>1.507E2</v>
+			<v>3.198E1</v>
+			<v>4.498E6</v>
+			<v>5.184E5</v>
+			<v>1.798E4</v>
+			<v>2.013E11</v>
+			<v>4.594E6</v>
+			<v>1.64E5</v>
+			<v>1.5E7</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>7.708E14</v>
+			<v>6.751E1</v>
+			<v>6E0</v>
+			<v>1.12E3</v>
+			<v>1.775E-4</v>
+			<v>-2.463E-4</v>
+			<v>-1.356E3</v>
+			<v>5.469E4</v>
+			<v>4.861E3</v>
+			<v>1.071E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp18.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.132E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>8.392E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>3.041E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.571E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.391E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>5.392E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.578E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>3.075E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.498E-1</v>
+			<v>5.095E-1</v>
+			<v>-2.949E-1</v>
+			<v>8.474E-2</v>
+			<v>-1.277E-1</v>
+			<v>9.748E-2</v>
+			<v>1.482E-2</v>
+			<v>4.796E-2</v>
+			<v>2.596E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.266E-1</v>
+			<v>3.106E1</v>
+			<v>1.588E3</v>
+			<v>9.562E4</v>
+			<v>1.545E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.239E3</v>
+			<v>1.545E4</v>
+			<v>3.442E2</v>
+			<v>-2.385E8</v>
+			<v>-5.314E6</v>
+			<v>-1.123E5</v>
+			<v>7.369E12</v>
+			<v>4.853E7</v>
+			<v>1.081E6</v>
+			<v>7.524E7</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.489E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.469E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>3.618E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.32E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>6.713E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>2.592E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>6.98E-3</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>3.359E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.211E-1</v>
+			<v>3.216E-1</v>
+			<v>2.85E-1</v>
+			<v>1.822E-1</v>
+			<v>2.115E-1</v>
+			<v>1.426E-1</v>
+			<v>1.874E-1</v>
+			<v>1.105E-1</v>
+			<v>1.004E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>7.708E-2</v>
+			<v>1.869E1</v>
+			<v>1.108E3</v>
+			<v>6.71E4</v>
+			<v>1.044E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>7.921E1</v>
+			<v>1.525E2</v>
+			<v>6.792E-1</v>
+			<v>4.71E6</v>
+			<v>5.154E4</v>
+			<v>4.728E2</v>
+			<v>2.183E11</v>
+			<v>4.818E5</v>
+			<v>4.235E3</v>
+			<v>4.757E5</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>8.621E14</v>
+			<v>6.8E1</v>
+			<v>6E0</v>
+			<v>1.14E3</v>
+			<v>-7.025E-5</v>
+			<v>-1.951E-4</v>
+			<v>-1.363E3</v>
+			<v>5.548E4</v>
+			<v>4.896E3</v>
+			<v>1.163E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp19.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.72E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.703E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>3.67E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.618E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>9.96E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>4.143E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.178E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>5.88E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.432E-1</v>
+			<v>3.964E-1</v>
+			<v>-2.914E-2</v>
+			<v>-4.276E-2</v>
+			<v>-3.945E-2</v>
+			<v>6.666E-2</v>
+			<v>1.907E-2</v>
+			<v>6.128E-2</v>
+			<v>3.176E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.084E-1</v>
+			<v>4.977E1</v>
+			<v>3.054E3</v>
+			<v>2.525E5</v>
+			<v>5.423E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.425E3</v>
+			<v>1.597E4</v>
+			<v>3.333E2</v>
+			<v>-2.551E8</v>
+			<v>-5.322E6</v>
+			<v>-1.049E5</v>
+			<v>8.151E12</v>
+			<v>4.865E7</v>
+			<v>1.015E6</v>
+			<v>6.797E7</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>3.911E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.523E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>8.051E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.464E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.066E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>4.103E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>5.774E-3</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>7.101E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>3.222E-1</v>
+			<v>4.412E-1</v>
+			<v>2.022E-1</v>
+			<v>2.237E-1</v>
+			<v>2.037E-1</v>
+			<v>1.583E-1</v>
+			<v>1.27E-1</v>
+			<v>1.304E-1</v>
+			<v>1.088E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.15E-1</v>
+			<v>3.45E1</v>
+			<v>1.689E3</v>
+			<v>1.705E5</v>
+			<v>2.468E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>3.636E2</v>
+			<v>1.523E2</v>
+			<v>5.57E0</v>
+			<v>4.863E6</v>
+			<v>4.023E4</v>
+			<v>3.726E3</v>
+			<v>2.33E11</v>
+			<v>3.786E5</v>
+			<v>3.421E4</v>
+			<v>3.634E6</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>9.536E14</v>
+			<v>6.796E1</v>
+			<v>6E0</v>
+			<v>1.14E3</v>
+			<v>-1.073E-4</v>
+			<v>-2.028E-4</v>
+			<v>-1.314E3</v>
+			<v>5.543E4</v>
+			<v>4.893E3</v>
+			<v>1.082E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp2.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.75E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.702E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>5.229E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.553E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>4.008E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.641E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.473E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>6.228E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.376E-1</v>
+			<v>4.391E-1</v>
+			<v>1.165E-2</v>
+			<v>3.08E-2</v>
+			<v>3.815E-2</v>
+			<v>-1.108E-2</v>
+			<v>7.728E-2</v>
+			<v>8.777E-2</v>
+			<v>4.094E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>3.641E-2</v>
+			<v>5.341E1</v>
+			<v>3.279E3</v>
+			<v>2.6E5</v>
+			<v>5.652E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.624E3</v>
+			<v>1.649E4</v>
+			<v>3.462E2</v>
+			<v>-2.72E8</v>
+			<v>-5.711E6</v>
+			<v>-1.135E5</v>
+			<v>8.972E12</v>
+			<v>5.22E7</v>
+			<v>1.097E6</v>
+			<v>7.666E7</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>3.871E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.41E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>7.667E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.073E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>3.739E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>1.366E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>9.19E-3</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>7.251E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>3.548E-1</v>
+			<v>3.345E-1</v>
+			<v>2.393E-1</v>
+			<v>1.544E-1</v>
+			<v>1.595E-1</v>
+			<v>1.471E-1</v>
+			<v>1.351E-1</v>
+			<v>1.196E-1</v>
+			<v>1.045E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>2.861E-2</v>
+			<v>3.24E1</v>
+			<v>1.511E3</v>
+			<v>1.61E5</v>
+			<v>1.824E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.438E2</v>
+			<v>1.513E2</v>
+			<v>1.259E1</v>
+			<v>4.991E6</v>
+			<v>2.57E5</v>
+			<v>8.53E3</v>
+			<v>2.469E11</v>
+			<v>2.337E6</v>
+			<v>7.896E4</v>
+			<v>8.572E6</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.041E15</v>
+			<v>6.742E1</v>
+			<v>6E0</v>
+			<v>1.121E3</v>
+			<v>4.247E-5</v>
+			<v>-1.922E-4</v>
+			<v>-1.237E3</v>
+			<v>5.454E4</v>
+			<v>4.854E3</v>
+			<v>1.061E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp20.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.629E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.085E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.703E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.561E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>2.61E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.032E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>4.989E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>4.043E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.419E-1</v>
+			<v>6.526E-1</v>
+			<v>-1.315E-1</v>
+			<v>8.451E-2</v>
+			<v>-4.91E-2</v>
+			<v>1.177E-1</v>
+			<v>4.041E-2</v>
+			<v>5.976E-2</v>
+			<v>2.729E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.817E-1</v>
+			<v>3.003E1</v>
+			<v>1.123E3</v>
+			<v>5.969E4</v>
+			<v>9.628E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.162E3</v>
+			<v>1.702E4</v>
+			<v>3.537E2</v>
+			<v>-2.895E8</v>
+			<v>-6.017E6</v>
+			<v>-1.184E5</v>
+			<v>9.852E12</v>
+			<v>5.508E7</v>
+			<v>1.145E6</v>
+			<v>8.151E7</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.862E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.306E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>2.149E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.111E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>2.014E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>7.148E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.311E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>3.967E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.172E-1</v>
+			<v>2.212E-1</v>
+			<v>3.559E-1</v>
+			<v>1.954E-1</v>
+			<v>2.174E-1</v>
+			<v>1.41E-1</v>
+			<v>1.7E-1</v>
+			<v>1.052E-1</v>
+			<v>1.02E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.215E-1</v>
+			<v>2.168E1</v>
+			<v>9.076E2</v>
+			<v>5.208E4</v>
+			<v>8.234E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>7.959E1</v>
+			<v>1.525E2</v>
+			<v>4.539E0</v>
+			<v>5.19E6</v>
+			<v>2.538E4</v>
+			<v>3.225E3</v>
+			<v>2.649E11</v>
+			<v>2.202E5</v>
+			<v>2.903E4</v>
+			<v>3.326E6</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.153E15</v>
+			<v>6.79E1</v>
+			<v>6E0</v>
+			<v>1.14E3</v>
+			<v>-9.013E-5</v>
+			<v>-1.864E-4</v>
+			<v>-1.238E3</v>
+			<v>5.533E4</v>
+			<v>4.889E3</v>
+			<v>1.028E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp3.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>3.058E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.867E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>6.961E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.515E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>3.944E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.615E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.865E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>6.708E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.323E-1</v>
+			<v>4.813E-1</v>
+			<v>-9.472E-2</v>
+			<v>-4.676E-2</v>
+			<v>2.3E-2</v>
+			<v>9.468E-2</v>
+			<v>9.743E-2</v>
+			<v>8.743E-2</v>
+			<v>3.248E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>3.935E-2</v>
+			<v>5.437E1</v>
+			<v>3.054E3</v>
+			<v>2.258E5</v>
+			<v>5.051E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.688E3</v>
+			<v>1.754E4</v>
+			<v>3.706E2</v>
+			<v>-3.076E8</v>
+			<v>-6.501E6</v>
+			<v>-1.306E5</v>
+			<v>1.079E13</v>
+			<v>5.95E7</v>
+			<v>1.259E6</v>
+			<v>9.461E7</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>3.774E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.275E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>1.358E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.775E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>4.136E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>1.56E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>7.452E-3</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>6.684E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>3.262E-1</v>
+			<v>3.675E-1</v>
+			<v>2.467E-1</v>
+			<v>1.871E-1</v>
+			<v>1.801E-1</v>
+			<v>1.632E-1</v>
+			<v>1.326E-1</v>
+			<v>9.823E-2</v>
+			<v>1.058E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.839E-2</v>
+			<v>3.17E1</v>
+			<v>1.545E3</v>
+			<v>1.556E5</v>
+			<v>1.999E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.704E2</v>
+			<v>1.518E2</v>
+			<v>1.545E1</v>
+			<v>5.326E6</v>
+			<v>3.263E5</v>
+			<v>1.124E4</v>
+			<v>2.802E11</v>
+			<v>2.964E6</v>
+			<v>1.038E5</v>
+			<v>1.212E7</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.252E15</v>
+			<v>6.737E1</v>
+			<v>6E0</v>
+			<v>1.121E3</v>
+			<v>6.979E-5</v>
+			<v>-1.741E-4</v>
+			<v>-1.163E3</v>
+			<v>5.446E4</v>
+			<v>4.851E3</v>
+			<v>1.017E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp4.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>3.343E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.985E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.359E-2</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.475E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>5.723E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.267E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.858E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>7.251E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-7.745E-1</v>
+			<v>4.715E-1</v>
+			<v>9.705E-2</v>
+			<v>2.898E-2</v>
+			<v>5.097E-2</v>
+			<v>3.883E-3</v>
+			<v>2.856E-2</v>
+			<v>2.165E-2</v>
+			<v>-4.451E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>3.823E-1</v>
+			<v>4.986E1</v>
+			<v>2.628E3</v>
+			<v>1.712E5</v>
+			<v>4.586E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.221E3</v>
+			<v>1.806E4</v>
+			<v>3.987E2</v>
+			<v>-3.261E8</v>
+			<v>-7.2E6</v>
+			<v>-1.517E5</v>
+			<v>1.178E13</v>
+			<v>6.613E7</v>
+			<v>1.46E6</v>
+			<v>1.181E8</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>5.167E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.995E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>2.182E-2</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.653E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>6.418E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>2.353E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>2.831E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>9.633E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>4.469E-1</v>
+			<v>3.771E-1</v>
+			<v>2.389E-1</v>
+			<v>2.032E-1</v>
+			<v>1.638E-1</v>
+			<v>1.371E-1</v>
+			<v>1.043E-1</v>
+			<v>9.93E-2</v>
+			<v>1.032E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.579E-1</v>
+			<v>4.597E1</v>
+			<v>1.855E3</v>
+			<v>1.697E5</v>
+			<v>2.176E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>2.421E2</v>
+			<v>1.504E2</v>
+			<v>4.24E0</v>
+			<v>5.433E6</v>
+			<v>1.325E5</v>
+			<v>3.301E3</v>
+			<v>2.943E11</v>
+			<v>1.311E6</v>
+			<v>3.288E4</v>
+			<v>3.851E6</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.367E15</v>
+			<v>6.733E1</v>
+			<v>6E0</v>
+			<v>1.121E3</v>
+			<v>-2.085E-5</v>
+			<v>-1.552E-4</v>
+			<v>-1.121E3</v>
+			<v>5.441E4</v>
+			<v>4.848E3</v>
+			<v>1.03E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp5.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>4.37E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>2.537E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>6.999E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.545E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>5.254E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.158E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>6.177E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>9.37E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-6.936E-1</v>
+			<v>3.489E-1</v>
+			<v>-3.216E-2</v>
+			<v>-3.134E-2</v>
+			<v>4.41E-2</v>
+			<v>6.643E-2</v>
+			<v>6.104E-2</v>
+			<v>1.028E-1</v>
+			<v>2.705E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>4.901E-2</v>
+			<v>6.452E1</v>
+			<v>3.405E3</v>
+			<v>1.808E5</v>
+			<v>5.687E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.593E3</v>
+			<v>1.858E4</v>
+			<v>4.185E2</v>
+			<v>-3.451E8</v>
+			<v>-7.775E6</v>
+			<v>-1.676E5</v>
+			<v>1.282E13</v>
+			<v>7.141E7</v>
+			<v>1.609E6</v>
+			<v>1.373E8</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>6.009E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>3.31E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>8.383E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.081E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>4.462E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>1.599E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>7.104E-3</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>1.103E2</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>5.19E-1</v>
+			<v>4.179E-1</v>
+			<v>3.618E-1</v>
+			<v>2.268E-1</v>
+			<v>2.011E-1</v>
+			<v>1.838E-1</v>
+			<v>1.524E-1</v>
+			<v>1.314E-1</v>
+			<v>1.146E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.308E-2</v>
+			<v>4.83E1</v>
+			<v>1.828E3</v>
+			<v>2.385E5</v>
+			<v>2.341E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.119E2</v>
+			<v>1.516E2</v>
+			<v>1.027E1</v>
+			<v>5.633E6</v>
+			<v>2.51E5</v>
+			<v>8.495E3</v>
+			<v>3.14E11</v>
+			<v>2.296E6</v>
+			<v>7.9E4</v>
+			<v>1.047E7</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.488E15</v>
+			<v>6.732E1</v>
+			<v>6E0</v>
+			<v>1.121E3</v>
+			<v>2.874E-5</v>
+			<v>-1.422E-4</v>
+			<v>-1.098E3</v>
+			<v>5.438E4</v>
+			<v>4.847E3</v>
+			<v>1.027E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp6.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.275E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>6.746E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>3.345E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.537E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>3.889E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.503E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.422E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>2.933E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.754E-1</v>
+			<v>7.077E-1</v>
+			<v>-2.001E-1</v>
+			<v>1.856E-1</v>
+			<v>-7.583E-2</v>
+			<v>1.81E-1</v>
+			<v>4.795E-2</v>
+			<v>8.376E-2</v>
+			<v>5.503E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>3.396E-2</v>
+			<v>2.792E1</v>
+			<v>1.255E3</v>
+			<v>1.059E5</v>
+			<v>1.478E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.576E3</v>
+			<v>1.91E4</v>
+			<v>4.516E2</v>
+			<v>-3.649E8</v>
+			<v>-8.627E6</v>
+			<v>-1.959E5</v>
+			<v>1.394E13</v>
+			<v>7.923E7</v>
+			<v>1.874E6</v>
+			<v>1.736E8</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>5.278E0</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>3.712E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>4.768E-5</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.671E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>2.533E-4</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>9.517E-3</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.251E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>1.105E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.665E-2</v>
+			<v>2.109E-1</v>
+			<v>2.843E-1</v>
+			<v>1.999E-1</v>
+			<v>1.795E-1</v>
+			<v>1.521E-1</v>
+			<v>1.607E-1</v>
+			<v>1.2E-1</v>
+			<v>1.345E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>2.238E-2</v>
+			<v>8.29E0</v>
+			<v>6.687E2</v>
+			<v>6.245E4</v>
+			<v>9.792E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>9.908E1</v>
+			<v>1.524E2</v>
+			<v>1.021E1</v>
+			<v>5.822E6</v>
+			<v>2.636E5</v>
+			<v>9.077E3</v>
+			<v>3.336E11</v>
+			<v>2.385E6</v>
+			<v>8.371E4</v>
+			<v>1.204E7</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.631E15</v>
+			<v>6.78E1</v>
+			<v>6E0</v>
+			<v>1.14E3</v>
+			<v>3.751E-5</v>
+			<v>-1.198E-4</v>
+			<v>-1.102E3</v>
+			<v>5.517E4</v>
+			<v>4.882E3</v>
+			<v>1.055E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp7.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.771E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.06E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>7.598E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.583E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>1.928E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>7.731E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.146E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>4.147E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.458E-1</v>
+			<v>5.883E-1</v>
+			<v>-1.182E-1</v>
+			<v>1.816E-1</v>
+			<v>2.468E-1</v>
+			<v>1.057E-2</v>
+			<v>7.208E-2</v>
+			<v>1.276E-1</v>
+			<v>8.31E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>1.621E-1</v>
+			<v>3.996E1</v>
+			<v>2.259E3</v>
+			<v>1.949E5</v>
+			<v>3.715E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.258E3</v>
+			<v>1.963E4</v>
+			<v>4.913E2</v>
+			<v>-3.851E8</v>
+			<v>-9.643E6</v>
+			<v>-2.33E5</v>
+			<v>1.512E13</v>
+			<v>8.842E7</v>
+			<v>2.214E6</v>
+			<v>2.251E8</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>1.469E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.417E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>8.677E-4</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>1.565E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.288E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>4.847E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.503E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>2.987E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.019E-1</v>
+			<v>2.708E-1</v>
+			<v>3.104E-1</v>
+			<v>1.526E-1</v>
+			<v>1.717E-1</v>
+			<v>1.671E-1</v>
+			<v>1.544E-1</v>
+			<v>1.465E-1</v>
+			<v>1.039E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.034E-1</v>
+			<v>1.995E1</v>
+			<v>1.263E3</v>
+			<v>5.287E4</v>
+			<v>1.165E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>1.277E2</v>
+			<v>1.514E2</v>
+			<v>1.127E1</v>
+			<v>5.944E6</v>
+			<v>2.951E5</v>
+			<v>1.097E4</v>
+			<v>3.499E11</v>
+			<v>2.674E6</v>
+			<v>1.006E5</v>
+			<v>1.587E7</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.754E15</v>
+			<v>6.727E1</v>
+			<v>6E0</v>
+			<v>1.121E3</v>
+			<v>5.234E-5</v>
+			<v>-9.14E-5</v>
+			<v>-1.037E3</v>
+			<v>5.431E4</v>
+			<v>4.844E3</v>
+			<v>1.102E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp8.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>1.57E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>9.074E-2</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.386E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.598E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>2.819E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>1.107E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>4.441E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>3.749E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.42E-1</v>
+			<v>7.267E-1</v>
+			<v>-1.854E-1</v>
+			<v>2.87E-2</v>
+			<v>-5.563E-2</v>
+			<v>1.144E-1</v>
+			<v>4.062E-2</v>
+			<v>5.712E-2</v>
+			<v>4.448E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>2.027E-1</v>
+			<v>2.722E1</v>
+			<v>9.467E2</v>
+			<v>5.234E4</v>
+			<v>9.141E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.152E3</v>
+			<v>2.015E4</v>
+			<v>5.082E2</v>
+			<v>-4.059E8</v>
+			<v>-1.024E7</v>
+			<v>-2.494E5</v>
+			<v>1.636E13</v>
+			<v>9.365E7</v>
+			<v>2.362E6</v>
+			<v>2.491E8</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>2.177E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>1.268E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>1.645E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.159E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>1.766E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>6.418E-2</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>1.738E-2</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>4.493E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.643E-1</v>
+			<v>2.288E-1</v>
+			<v>3.75E-1</v>
+			<v>2.204E-1</v>
+			<v>2.111E-1</v>
+			<v>1.494E-1</v>
+			<v>1.706E-1</v>
+			<v>1.037E-1</v>
+			<v>1.135E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>1.22E-1</v>
+			<v>2.237E1</v>
+			<v>8.623E2</v>
+			<v>6.398E4</v>
+			<v>8.579E6</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>9.985E1</v>
+			<v>1.526E2</v>
+			<v>1.976E0</v>
+			<v>6.149E6</v>
+			<v>4.133E4</v>
+			<v>2.061E3</v>
+			<v>3.716E11</v>
+			<v>4.024E5</v>
+			<v>1.776E4</v>
+			<v>3.085E6</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>1.914E15</v>
+			<v>6.776E1</v>
+			<v>6E0</v>
+			<v>1.14E3</v>
+			<v>-7.678E-5</v>
+			<v>-8.246E-5</v>
+			<v>-1.046E3</v>
+			<v>5.51E4</v>
+			<v>4.879E3</v>
+			<v>1.093E-3</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>F:\personal\US\CSSE - Course\Spring 2015\MMDBS\Assignmnets\Assign 4\assignment4_supportFiles\audio\sp9.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.307E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.419E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>1.923E-2</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.491E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>7.33E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.898E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.304E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>5.27E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.646E-1</v>
+			<v>5.128E-1</v>
+			<v>8.869E-2</v>
+			<v>6.117E-2</v>
+			<v>5.537E-2</v>
+			<v>5.069E-3</v>
+			<v>4.056E-2</v>
+			<v>4.318E-2</v>
+			<v>3.433E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>4.556E-1</v>
+			<v>4.052E1</v>
+			<v>2.349E3</v>
+			<v>1.973E5</v>
+			<v>4.326E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>-1.139E3</v>
+			<v>2.067E4</v>
+			<v>4.962E2</v>
+			<v>-4.273E8</v>
+			<v>-1.025E7</v>
+			<v>-2.373E5</v>
+			<v>1.767E13</v>
+			<v>9.362E7</v>
+			<v>2.247E6</v>
+			<v>2.312E8</v>
+		</feature>
+		<feature>
+			<name>Spectral Centroid Overall Standard Deviation</name>
+			<v>3.901E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Standard Deviation</name>
+			<v>2.454E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Standard Deviation</name>
+			<v>2.457E-2</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Standard Deviation</name>
+			<v>2.38E2</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Standard Deviation</name>
+			<v>7.058E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Standard Deviation</name>
+			<v>2.586E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Standard Deviation</name>
+			<v>6.622E-3</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Standard Deviation</name>
+			<v>7.505E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Standard Deviation</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>3.22E-1</v>
+			<v>3.556E-1</v>
+			<v>2.688E-1</v>
+			<v>1.99E-1</v>
+			<v>1.708E-1</v>
+			<v>1.539E-1</v>
+			<v>1.166E-1</v>
+			<v>1.173E-1</v>
+			<v>9.986E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Standard Deviation</name>
+			<v>3.858E-1</v>
+			<v>3.684E1</v>
+			<v>1.553E3</v>
+			<v>1.445E5</v>
+			<v>2.048E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Standard Deviation</name>
+			<v>3.368E2</v>
+			<v>1.498E2</v>
+			<v>4.801E0</v>
+			<v>6.195E6</v>
+			<v>8.824E4</v>
+			<v>4.777E3</v>
+			<v>3.842E11</v>
+			<v>7.863E5</v>
+			<v>4.387E4</v>
+			<v>7.006E6</v>
+		</feature>
+		<feature>
+			<name>Area Moments: Area Method of Moments of MFCCs</name>
+			<v>2.049E15</v>
+			<v>6.722E1</v>
+			<v>6E0</v>
+			<v>1.121E3</v>
+			<v>-7.131E-5</v>
+			<v>-9.643E-5</v>
+			<v>-9.706E2</v>
+			<v>5.423E4</v>
+			<v>4.84E3</v>
+			<v>1.017E-3</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>

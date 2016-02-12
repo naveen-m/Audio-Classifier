@@ -1,0 +1,46 @@
+@relation  weka
+@attribute SpectralCentroidOverallStandardDeviation numeric
+@attribute SpectralFluxOverallAverage numeric
+@attribute ZeroCrossingsOverallStandardDeviation numeric
+@attribute ismusic {yes, no}
+@data
+3.144E1, 1.398E-3, 6.265E1, yes
+1.442E1, 6.419E-4, 3.513E1, yes
+8.875E0, 6.21E-4, 2.067E1, yes
+8.315E0, 5.212E-4, 1.809E1, yes
+1.147E1, 2.899E-5, 2.663E1, yes
+7.024E0, 4.139E-4, 2.202E1, yes
+7.529E0, 2.341E-5, 1.637E1, yes
+1.873E1, 8.172E-5, 3.753E1, yes
+8.896E0, 2.069E-4, 2.381E1, yes
+1.066E1, 1.594E-4, 1.888E1, yes
+1.06E1, 1.045E-4, 2.49E1, yes
+3.102E1, 2.034E-3, 5.581E1, yes
+6.555E0, 7.636E-4, 1.758E1, yes
+5.381E0, 1.973E-3, 1.645E1, yes
+5.108E1, 4.703E-5, 9.306E1, no
+3.871E1, 5.229E-5, 7.251E1, no
+3.774E1, 6.961E-5, 6.684E1, no
+5.167E1, 1.359E-2, 9.633E1, no
+6.009E1, 6.999E-5, 1.103E2, no
+5.278E0, 3.345E-5, 1.105E1, no
+1.469E1, 7.598E-4, 2.987E1, no
+2.177E1, 1.386E-3, 4.493E1, no
+3.901E1, 1.923E-2, 7.505E1, no
+4.629E1, 2.057E-2, 8.655E1, no
+4.633E1, 5.069E-5, 8.301E1, no
+5.22E1, 9.339E-4, 9.358E1, no
+3.43E1, 1.945E-2, 6.759E1, no
+9.489E0, 1.127E-4, 2.151E1, yes
+1.125E1, 1.242E-3, 2.347E1, yes
+1.169E1, 5.821E-3, 2.51E1, yes
+2.043E1, 1.938E-4, 4.645E1, yes
+1.843E1, 1.553E-4, 3.284E1, yes
+1.634E1, 6.148E-5, 3.466E1, yes
+2.719E1, 7.706E-4, 5.429E1, no
+3.173E1, 4.645E-4, 6.332E1, no
+3.343E1, 4.144E-3, 6.038E1, no
+2.502E1, 7.723E-3, 4.709E1, no
+1.489E1, 3.041E-4, 3.359E1, no
+3.911E1, 3.67E-4, 7.101E1, no
+1.862E1, 1.703E-3, 3.967E1, no
